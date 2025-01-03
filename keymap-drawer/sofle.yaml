@@ -1,9 +1,9 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, \, LSHFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL, Z,
+  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, \, LSHFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL, Z,
     X, C, V, B, MUTE, '', N, M, ',', ., /, RCTRL, LGUI, LALT, ESC, SPACE, lower, raise, SPACE, RET, RALT, RGUI]
   lower:
-  - {t: ▽, type: trans}
+  - '`'
   - F1
   - F2
   - F3
@@ -75,7 +75,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - UP
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
@@ -99,7 +99,7 @@ layers:
   - DOWN
   - RIGHT
   - DEL
-  - BSPC
+  - BACKSPACE
   - {t: ▽, type: trans}
   - UNDO
   - CUT
